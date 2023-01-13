@@ -1,0 +1,67 @@
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Card_User{
+  background-color: rgb(13, 13, 13);
+  padding: 10px;
+  color: white;
+  /* padding-bottom: 10px; */
+  text-align: center;
+
+
+}
+.Card_User h1{
+  font-size: 3rem;
+}
+.Card_User a{
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(5, 244, 244);
+  padding: 10px;
+  color: rgb(17, 17, 17);
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+}
+.Card_User a:first-of-type{
+  margin-left: 0px;
+}
+.Card_User p{
+  margin-top: 20px;
+}
+.HexGen{
+  /* position: relative; */
+  /* bottom: 0%; */
+  /* margin-bottom: 0px; */
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0%;
+}
+.Num{
+  text-align: center;
+  background-color: navy;
+  width: fit-content;
+  padding: 0px 20px;
+  margin: auto;
+  border-radius: 10%;
+  color: white;
+}
+.user_details{
+  margin-top:5px;
+  margin-bottom: 10px;
+  /* margin-left: 10px;
+   */
+   text-align: center;
+}
