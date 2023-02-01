@@ -4,8 +4,8 @@ import '../App.css';
 class User_Card extends Component{
     render(){
         return(
-            <div className="Card_User " >
-                <h1 className="">Pranav Malpani</h1>
+            <div className="Card_User">
+                <h1>Pranav Malpani</h1>
                 <h3>Web Developer</h3>
                 <h3>Skills</h3>
                 <a href="">HTML</a>

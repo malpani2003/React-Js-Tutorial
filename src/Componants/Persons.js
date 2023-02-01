@@ -1,10 +1,5 @@
 import React,{Component} from "react";
 
-// Change css file to filename.module.css
-// it helps in  that differnment components cannot use this css
-// resticting css file for another file
-import PersonStyle from "./Person.module.css"
-
 class Persons extends Component{
     constructor(props){
         super(props);
@@ -14,7 +9,6 @@ class Persons extends Component{
             name:"Pranav Malpani",
             age:19
         };
-
         // Constructor me binding bhi karwa sakte hai
         this.agechange=this.agechange.bind(this);
 
@@ -34,17 +28,15 @@ class Persons extends Component{
 
 
     render(){
-        // All style properties in camelCase with all property in quotes 
-        // style is used for inline styling
-       const btnstyle={
-            backgroundColor:"pink",
-            color:"black",
-            marginLeft:"5px",
-            borderRadius:"10px"
-      };
+        // All style properties in camelCase
+        const btnstyle={
+              backgroundColor:"pink",
+              color:"black",
+              marginLeft:"5px",
+              borderRadius:"10px"
+        };
         return (
-            // className is used for defining class of tag 
-            <div className={PersonStyle.user_details}>
+            <div className="user_details">
              <h1>Hello <em>{this.state.name}</em> Age - {this.state.age}</h1>
              <p>Learning react is intresting</p>
              <button onClick={this.namechange} style={btnstyle}>Change Name</button>
