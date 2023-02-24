@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import RegistrationForm from './Componants/Forms/RegistrationForm';
+import AxiosHttp from './Componants/HTTPS/AxiosHttp';
 
 
 const ele=React.createElement("div",null,React.createElement("h1",null,"Welcome to Tutorial"))
@@ -12,6 +13,7 @@ root.render(
   <div>
     <App />
     <RegistrationForm></RegistrationForm>
+    <AxiosHttp></AxiosHttp>
 
   </div>
 );
