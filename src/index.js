@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import RegistrationForm from './Componants/Forms/RegistrationForm';
 import AxiosHttp from './Componants/HTTPS/AxiosHttp';
-
-
+import HookCounter from './Componants/Hooks/HookCounter';
+import HookCounterTwo from './Componants/Hooks/HookCounterTwo';
+import ReducerTutorial from './Componants/Hooks/ReducerTutorial';
+import EffectTutorial from './Componants/Hooks/EffectTutorial';
 const ele=React.createElement("div",null,React.createElement("h1",null,"Welcome to Tutorial"))
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -13,7 +15,12 @@ root.render(
   <div>
     <App />
     <RegistrationForm></RegistrationForm>
-    <AxiosHttp></AxiosHttp>
+    {/* <AxiosHttp></AxiosHttp> */}
+    <HookCounter></HookCounter>
+    <HookCounterTwo></HookCounterTwo>
+    <ReducerTutorial></ReducerTutorial>
+    <EffectTutorial></EffectTutorial>
+
 
   </div>
 );
