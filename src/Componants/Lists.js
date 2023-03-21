@@ -25,7 +25,6 @@ const person=[
   }
 ]
 const personlist=person.map((value,index)=><Personlist name={value.name} skill={value.skill} key={index}></Personlist>)
-// const personlist=person.map()
   return (
     <div>{personlist}</div>
   )
